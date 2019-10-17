@@ -3,7 +3,7 @@
   {"id":0,"file":"client
 dev tun
 proto tcp
-remote 31.171.152.19 443
+remote 220.107.8.62 1313
 resolv-retry infinite
 remote-random
 nobind
@@ -25,8 +25,8 @@ auth-user-pass
 verb 3
 pull
 fast-io
-cipher AES-256-CBC
-auth SHA512
+cipher AES-128-CBC
+auth SHA1
 
 <ca>
 -----BEGIN CERTIFICATE-----
